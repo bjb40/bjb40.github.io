@@ -36,7 +36,7 @@ theme = "freelance-mod"
         # Copy your own image into './static/img/'' if you wish
         image = "ibjb40.jpg"
         name = "Bryce Bartlett"
-        subtitle = "Health & Medicine * Data Science * Law & Policy"
+        subtitle = "Health *  Data Science * Law"
 
 
     [params.portfolio]
@@ -44,20 +44,19 @@ theme = "freelance-mod"
         # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
         # at the root of this Hugo site.
         # For more informtion take a look at the README.
-        title = "Projects"
+        title = "My Work"
 
         [params.portfolio.modal]
-            client = "Client"
-            date = "Date"
-            category = "Category"
+            
+            category = "Categories"
             buttontext = "Close"
 
 
     [params.about]
         title = "About"
-        # The about text is splitted into a left and right column
-        left = "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization."
-        right = "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!"
+        
+        left = "I am a PhD Candidate at Duke University, affiliated with the [Sociology Department](http://sociology.duke.edu) and two interdisciplinary centers: the [Social Science Research Institute](https://ssri.duke.edu/) and the [Duke Population Research Institute](https://dupri.duke.edu/). My research is supported by an NIA training grant."
+        right = "I use data to explore the changes in populations and population health. I am especially interested how law and policy impact these changes. Download a copy of my cv [here](cv/cv.pdf), and explore summaries of my work below."
 
 
 
@@ -65,25 +64,21 @@ theme = "freelance-mod"
     [params.footer]
         copyright = "Published under the Apache License 2.0. Powered by [Hugo](//gohugo.io)."
 
-        [params.footer.location]
-            title = "Location"
-            # Postal address (add as many lines as necessary)
-            address = ["3481 Melrose Place", "Beverly Hills, CA 90210"]
+
 
         [params.footer.social]
-            title = "Around the web"
+            title = "Social Media"
             # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
             # for more icons. The icons are represented by their corresponding
             # CSS class.
             [[params.footer.social.networks]]
                 icon = "fa-github"
-                link = "//github.com/spf13/hugo"
+                link = "//github.com/bjb40"
 
             [[params.footer.social.networks]]
-                icon = "fa-stack-overflow"
-                link=  "//stackoverflow.com/questions/tagged/hugo"
+                icon = "fa-linkedin"
+                link=  "//www.linkedin.com/in/bryce-bartlett-0980822"
 
-
-        [params.footer.credits]
-            title = "About Freelancer"
-            text = "Freelance is a free to use, open source Bootstrap theme created by [Start Bootstrap](//startbootstrap.com)."
+         [[params.footer.social.networks]]
+                icon = "fa-user"
+                link=  "//ssrn.com/author=914650"
